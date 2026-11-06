@@ -1,6 +1,6 @@
 #!/bin/bash
 
-kubectl apply -f ./.infrastructure/confgiMap.yml
+kubectl apply -f ./.infrastructure/configMap.yml
 kubectl apply -f ./.infrastructure/secret.yml
 
 kubectl apply -f ./.infrastructure/clusterIp.yml
